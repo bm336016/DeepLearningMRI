@@ -1,0 +1,39 @@
+name: bm336016
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - dglteam
+dependencies:
+  - python=3.7
+  - pytorch=1.3.0
+  - ipython>=7.9
+  - cudatoolkit
+  - torchvision
+  - torchtext
+  - matplotlib
+  - jupyter
+  - jupyterlab
+  - scipy
+  - numpy
+  - scikit-learn
+  - pandas
+  - cython
+  - rise
+  - numba
+  - spacy
+  - nltk
+  - ffmpeg>4.1
+  - opencv
+  - freetype>=2.10
+  - dgl
+  - graphviz
+  - pip
+  - pip:
+      # spaCy models
+    - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz
+    - https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-2.2.5/de_core_news_sm-2.2.5.tar.gz
+    - gym
+    - atari-py
+    - box2d-py
+    - torchviz
